@@ -1,7 +1,3 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
 ## Folder Structure
 
 The workspace contains two folders by default, where:
@@ -9,10 +5,16 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+And additional file and folders for implementation where:
+- `Kapal`: the folder to keep Kapal abstract class and some type of Kapal concrete class 
+- `KapalFactory`: the folder to keep Galangan and KapalFactory to create Kapal
+- `MainFrame.java` file to run the program
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Setup
 
-## Dependency Management
+- Clone this repository using this command `git clone https://github.com/mardianto-byte/Shipping-Yard.git`
+- Change the working directory to `src` folder
+- Run program using `javac MainFrame.java` and `java MainFrame.java`
+- Program will recieve an input of text, user can add 3 types of ship (Layar, Pesiar, Motor)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
