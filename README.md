@@ -14,7 +14,7 @@ And additional file and folders for implementation where:
 
 - Clone this repository using this command `git clone https://github.com/mardianto-byte/Shipping-Yard.git`
 - Change the working directory to `src` folder
-- Run program using `javac MainFrame.java` and `java MainFrame.java`
+- Run program using `javac MainFrame.java` and `java MainFrame`
 - Program will recieve an input of text, user can add 3 types of ship (Layar, Pesiar, Motor)
 
 
